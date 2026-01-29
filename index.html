@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 10th Monthsary 💗</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="gate" id="gate">
+    <div class="gateCard">
+      <h2>For my love only 💗</h2>
+      <p>Type our secret word to unlock the surprise (you can turn this off in the code).</p>
+      <div class="gateRow">
+        <input class="input" id="gateInput" placeholder="Secret word..." autocomplete="off" />
+        <button class="btn primary" id="gateBtn" type="button">Unlock</button>
+      </div>
+      <div class="hint" id="gateHint">Hint: it could be her nickname 😉</div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="dot" aria-hidden="true"></div>
+        <div class="brandText">
+          <h1 id="siteTitle">Happy 10th Monthsary 💗</h1>
+          <span id="siteSub">A pink & blue little universe for you</span>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="btn" id="btnHearts" type="button">💞 Spam hearts</button>
+        <button class="btn" id="btnMusic" type="button">🎶 Music: Off</button>
+        <button class="btn primary" id="btnLetter" type="button">✉️ Open my letter</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div class="heroGrid">
+          <div>
+            <h2 class="title">
+              Hi <span id="herName">Love</span> 💗<br />
+              I made this just for you.
+            </h2>
+            <p class="subtitle">
+              Today marks our <b>10th monthsary</b> — ten months of laughs, comfort, and love.
+              This is a tiny website version of my heart: cute, simple, and always yours.
+            </p>
+
+            <div class="pillRow">
+              <div class="pill">💗 Pink + Blue theme</div>
+              <div class="pill">✨ Little surprises</div>
+              <div class="pill">📸 Our memories</div>
+              <div class="pill">💌 Love letter</div>
+            </div>
+
+            <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+              <button class="btn primary" id="btnReason" type="button">💘 Give me a reason</button>
+              <button class="btn" id="btnScroll" type="button">📷 Jump to memories</button>
+            </div>
+          </div>
+
+          <div class="card counter">
+            <h3>Our time together</h3>
+            <div class="bigNum" id="counterMain">—</div>
+            <div class="small" id="counterSub">Set your anniversary date in the code to show the exact count.</div>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:6px;">
+              <div class="pill" id="monthPill">💖 Month 10</div>
+              <div class="pill" id="sincePill">📅 Since —</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="card">
+          <div class="sectionTitle">
+            <h2>💘 Reasons I love you</h2>
+            <p>Press the button for a new one</p>
+          </div>
+          <div class="reasonsBox">
+            <div class="reason" id="reasonText">Click “Give me a reason” 💗</div>
+            <button class="btn primary" id="btnReason2" type="button">💘 Give me a reason</button>
+            <button class="btn" id="btnCopyReason" type="button">📋 Copy reason</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="sectionTitle">
+            <h2>📸 Our memories</h2>
+            <p>Tap a photo to open</p>
+          </div>
+
+          <div class="gallery" id="gallery">
+            <button class="photo" data-caption="Our cutest day 💗" type="button">
+              <img src="bb.jpg" alt="Cutiee baby" loading="lazy" decoding="async" />
+              <span>Cutiee baby</span>
+            </button>
+
+            <button class="photo" data-caption="The day I knew: it’s you." type="button">
+              <img src="cute.jpg" alt="Blehh" loading="lazy" decoding="async" />
+              <span>Blehh</span>
+            </button>
+
+            <button class="photo" data-caption="Soft moments, loud love ✨" type="button">
+              <img src="ilove.jpg" alt="Craving Satisfied" loading="lazy" decoding="async" />
+              <span>Craving Satisfied</span>
+            </button>
+
+            <button class="photo" data-caption="Us, always. 🌙" type="button">
+              <img src="dimples.jpg" alt="Dimples Yarn" loading="lazy" decoding="async" />
+              <span>Dimples Yarn</span>
+            </button>
+
+            <button class="photo" data-caption="I choose you every day 💙" type="button">
+              <img src="hee.jpg" alt="Patir Moments" loading="lazy" decoding="async" />
+              <span>Patir Moments</span>
+            </button>
+
+            <button class="photo" data-caption="My favorite place is next to you 💗" type="button">
+              <img src="pizza.jpg" alt="Libre ni baby" loading="lazy" decoding="async" />
+              <span>Libre ni baby</span>
+            </button>
+
+            <button class="photo" data-caption="Bida ang Saya 💗" type="button">
+              <img src="jobi.jpg" alt="Bida ang Saya" loading="lazy" decoding="async" />
+              <span>Bida ang Saya</span>
+            </button>
+
+            <button class="photo" data-caption="Cutie baby 💗" type="button">
+              <img src="maymay.jpg" alt="Cutie baby" loading="lazy" decoding="async" />
+              <span>Cutie baby</span>
+            </button>
+
+            <button class="photo" data-caption="21st Birthday" type="button">
+              <img src="dagat.jpg" alt="21st Birthday" loading="lazy" decoding="async" />
+              <span>21st Birthday</span>
+            </button>
+
+            <button class="photo" data-caption="Bb naku hihi" type="button">
+              <img src="blue.jpg" alt="21st Birthday" loading="lazy" decoding="async" />
+              <span>Hihihi bb naku</span>
+            </button>
+
+            <button class="photo" data-caption="Mini-Bouquet" type="button">
+              <img src="flower.jpg" alt="21st Birthday" loading="lazy" decoding="async" />
+              <span>Birthday Flower</span>
+            </button>
+
+            <button class="photo" data-caption="First Laag of 2026" type="button">
+              <img src="monte.jpg" alt="Laagan" loading="lazy" decoding="async" />
+              <span>Mga Laagan</span>
+            </button>
+
+             <button class="photo" data-caption="Kiss ku bi sa kili-kili" type="button">
+              <img src="MWua.jpg" alt="Laagan" loading="lazy" decoding="async" />
+              <span>kili-kili power</span>
+            </button>
+
+             <button class="photo" data-caption="First Potato Corner Moment" type="button">
+              <img src="potato.jpg" alt="Laagan" loading="lazy" decoding="async" />
+              <span>First Potato Corner Date</span>
+            </button>
+
+             <button class="photo" data-caption="Birthdya Cake" type="button">
+              <img src="bday.jpg" alt="Laagan" loading="lazy" decoding="async" />
+              <span>Celebrate Yarn</span>
+            </button>
+
+            <button class="photo" data-caption="Midnight Walk" type="button">
+              <img src="gabie.jpg" alt="Laagan" loading="lazy" decoding="async" />
+              <span>Date muna before ...</span>
+            </button>
+
+            <button class="photo" data-caption="Cutieeeeee" type="button">
+              <img src="ptotie.jpg" alt="Laagan" loading="lazy" decoding="async" />
+              <span>Cute cute hehe</span>
+            </button>
+
+            <button class="photo" data-caption="Inasal" type="button">
+              <img src="ina.jpg" alt="Laagan" loading="lazy" decoding="async" />
+              <span>10th Monthsary</span>
+            </button>
+
+            <button class="photo" data-caption="Date date na pud" type="button">
+              <img src="inasal.jpg" alt="Laagan" loading="lazy" decoding="async" />
+              <span>Date date na pud</span>
+            </button>
+
+            <button class="photo" data-caption="Jobiiii" type="button">
+              <img src="new.jpg" alt="Laagan" loading="lazy" decoding="async" />
+              <span>First picture sa new phone</span>
+            </button>
+
+            <button class="photo" data-caption="Lingi sa cute" type="button">
+              <img src="look.jpg" alt="Laagan" loading="lazy" decoding="async" />
+              <span>Kiss ku be</span>
+            </button>
+
+
+          </div>
+
+          <div style="height:14px"></div>
+
+          <div class="sectionTitle">
+            <h2>🎥 Our videos</h2>
+            <p>Tap to play</p>
+          </div>
+
+          <div class="videoGrid" id="videoGrid">
+            <button class="videoCard" data-title="Video 1 💗" data-src="video1.mp4" type="button" aria-label="Play video 1">
+              <div class="playBadge" aria-hidden="true">▶</div>
+              <video muted playsinline preload="metadata">
+                <source src="video1.mp4" type="video/mp4" />
+              </video>
+              <span>video1</span>
+            </button>
+
+            <button class="videoCard" data-title="Video 2 💙" data-src="video2.mp4" type="button" aria-label="Play video 2">
+              <div class="playBadge" aria-hidden="true">▶</div>
+              <video muted playsinline preload="metadata">
+                <source src="video2.mp4" type="video/mp4" />
+              </video>
+              <span>video2</span>
+            </button>
+          </div>
+
+          <div style="margin-top:12px; opacity:.85; font-size:12px; line-height:1.5;">
+            Tip: Another month with my baby.
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    Made with love 💗 in pink + blue — Happy 10th monthsary, <span id="footerName">love</span>.
+  </footer>
+
+  <div class="modalOverlay" id="letterModal" role="dialog" aria-modal="true" aria-labelledby="letterTitle">
+    <div class="modal">
+      <div class="modalHeader">
+        <h3 id="letterTitle">✉️ My letter to you</h3>
+        <button class="btn" id="closeLetter" type="button">Close</button>
+      </div>
+      <div class="modalBody">
+        <div class="letter" id="letterText"></div>
+      </div>
+      <div class="modalFooter">
+        <button class="btn" id="btnCopyLetter" type="button">📋 Copy letter</button>
+        <button class="btn primary" id="btnConfetti" type="button">✨ Surprise</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <figure>
+      <img id="lightboxImg" alt="memory" />
+      <figcaption>
+        <span id="lightboxCap">—</span>
+        <button class="btn" id="closeLightbox" type="button">Close</button>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="lightbox" id="videoBox" role="dialog" aria-modal="true" aria-label="Video player">
+    <figure>
+      <video id="videoPlayer" controls playsinline></video>
+      <figcaption>
+        <span id="videoCap">—</span>
+        <button class="btn" id="closeVideo" type="button">Close</button>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="toast" id="toast" aria-live="polite"></div>
+
+  <audio id="bgm" loop>
+    <source src="music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script>
+    const GIRLFRIEND_NAME = "My Madam Baby";
+    const YOUR_NAME = "Your Boyfriend";
+    const ANNIVERSARY_DATE = "2025-03-29";
+    const MONTHSARY_NUMBER = 10;
+
+    const ENABLE_GATE = false;
+    const SECRET_WORD = "love";
+
+    const REASONS = [
+      "Because you feel like home to me.",
+      "Because your smile fixes my whole day.",
+      "Because you believe in me, even when I doubt myself.",
+      "Because you’re kind in the little ways that matter most.",
+      "Because you make boring moments feel special.",
+      "Because you’re my favorite person to talk to—about anything.",
+      "Because you’re beautiful, inside and out.",
+      "Because you try, you care, and you love with your whole heart.",
+      "Because you make me want to be better—gently, not loudly.",
+      "Because I’m happiest when it’s you and me."
+    ];
+
+    const LOVE_LETTER = `
+Hi ${GIRLFRIEND_NAME} 💗
+
+Happy 10th monthsary, bb naku.
+
+Ten months with you has been one of my favorite parts of life.
+Thank you for being my safe place, my happiness, my calm, my excitement and my sakit ng ulo.
+
+I love how you exist, how you care, how you laugh, how you try and how you never give up.
+I’m really proud of you bb naku. Mwuaaaaaaaa
+Iloveyouuuuuuuuuu
+And I’m choosing you… today, tomorrow, and all the days after.
+
+If you ever forget how loved you are,
+open this page again and remember:
+you’re my favorite sakit ng ulo hihiih
+
+Love,
+${YOUR_NAME}
+`.trim();
+
+    const $ = (id) => document.getElementById(id);
+
+    const focusablesSelector = [
+      "a[href]",
+      "button:not([disabled])",
+      "textarea:not([disabled])",
+      "input:not([disabled])",
+      "select:not([disabled])",
+      "[tabindex]:not([tabindex='-1'])"
+    ].join(",");
+
+    let toastTimer = null;
+
+    function toast(msg) {
+      const t = $("toast");
+      if (!t) return;
+      t.textContent = msg;
+      t.style.display = "block";
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => (t.style.display = "none"), 2600);
+    }
+
+    function updateCounter() {
+      const start = new Date(ANNIVERSARY_DATE + "T00:00:00");
+      const now = new Date();
+      const diff = now - start;
+
+      if (Number.isNaN(diff)) {
+        $("counterMain").textContent = "Set your date ✨";
+        $("counterSub").textContent = "Edit ANNIVERSARY_DATE in the code (YYYY-MM-DD).";
+        return;
+      }
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const mins = Math.floor((diff / (1000 * 60)) % 60);
+      const secs = Math.floor((diff / 1000) % 60);
+
+      $("counterMain").textContent = `${days} days • ${hours}h • ${mins}m • ${secs}s`;
+      $("counterSub").textContent = "And I still get butterflies 🦋";
+    }
+
+    function spawnOneHeart() {
+      const h = document.createElement("div");
+      h.className = "heart";
+      h.textContent = Math.random() > 0.25 ? "💗" : "💙";
+      const left = Math.random() * 100;
+      const dur = 4 + Math.random() * 3.5;
+      const drift = Math.random() * 160 - 80;
+      h.style.left = left + "vw";
+      h.style.animationDuration = dur + "s";
+      h.style.setProperty("--drift", drift + "px");
+      h.style.fontSize = 14 + Math.random() * 18 + "px";
+      document.body.appendChild(h);
+      setTimeout(() => h.remove(), dur * 1000);
+    }
+
+    function spawnHearts(n = 10) {
+      for (let i = 0; i < n; i++) setTimeout(spawnOneHeart, i * 80);
+    }
+
+    function openOverlay(el) {
+      if (!el) return;
+      el.style.display = "flex";
+      el.dataset.open = "1";
+      document.body.style.overflow = "hidden";
+      const focusables = el.querySelectorAll(focusablesSelector);
+      if (focusables.length) focusables[0].focus();
+    }
+
+    function closeOverlay(el) {
+      if (!el) return;
+      el.style.display = "none";
+      el.dataset.open = "";
+      document.body.style.overflow = "";
+    }
+
+    function trapFocus(e, el) {
+      if (!el || el.dataset.open !== "1" || e.key !== "Tab") return;
+      const items = Array.from(el.querySelectorAll(focusablesSelector)).filter(x => x.offsetParent !== null);
+      if (!items.length) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
+
+    function closeOnEscape(e) {
+      if (e.key !== "Escape") return;
+
+      const videoBox = $("videoBox");
+      const lightbox = $("lightbox");
+      const letterModal = $("letterModal");
+
+      if (videoBox?.dataset.open === "1") closeVideo();
+      else if (lightbox?.dataset.open === "1") closeLightbox();
+      else if (letterModal?.dataset.open === "1") closeLetter();
+    }
+
+    function setTextSafe(id, text) {
+      const el = $(id);
+      if (el) el.textContent = text;
+    }
+
+    function initText() {
+      setTextSafe("herName", GIRLFRIEND_NAME);
+      setTextSafe("footerName", GIRLFRIEND_NAME);
+      setTextSafe("monthPill", `💖 Month ${MONTHSARY_NUMBER}`);
+      setTextSafe("sincePill", `📅 Since ${new Date(ANNIVERSARY_DATE).toDateString()}`);
+      setTextSafe("letterText", LOVE_LETTER);
+    }
+
+    function randomReason() {
+      const r = REASONS[Math.floor(Math.random() * REASONS.length)];
+      setTextSafe("reasonText", r);
+      spawnHearts(8);
+      toast("A new reason just dropped 💘");
+    }
+
+    async function copyText(text, okMsg, failMsg) {
+      try {
+        await navigator.clipboard.writeText(text);
+        toast(okMsg);
+      } catch {
+        toast(failMsg);
+      }
+    }
+
+    const bgm = $("bgm");
+    let musicOn = false;
+
+    async function toggleMusic() {
+      if (!bgm) return;
+      try {
+        if (!musicOn) {
+          await bgm.play();
+          musicOn = true;
+          setTextSafe("btnMusic", "🎶 Music: On");
+          toast("Music on 🎶");
+        } else {
+          bgm.pause();
+          musicOn = false;
+          setTextSafe("btnMusic", "🎶 Music: Off");
+          toast("Music off ✨");
+        }
+      } catch {
+        toast("Tap again to allow audio (browser restriction).");
+      }
+    }
+
+    const letterModal = $("letterModal");
+    const btnLetter = $("btnLetter");
+    const closeLetterBtn = $("closeLetter");
+
+    function openLetter() {
+      openOverlay(letterModal);
+      spawnHearts(10);
+      toast("Open the letter slowly… it’s extra sweet 💗");
+    }
+
+    function closeLetter() {
+      closeOverlay(letterModal);
+      btnLetter?.focus();
+    }
+
+    const lightbox = $("lightbox");
+    const lightboxImg = $("lightboxImg");
+    const lightboxCap = $("lightboxCap");
+    const closeLightboxBtn = $("closeLightbox");
+
+    let lastImageFocus = null;
+
+    function openLightbox(src, caption) {
+      if (!lightbox || !lightboxImg || !lightboxCap) return;
+      lastImageFocus = document.activeElement;
+      lightboxImg.src = src;
+      lightboxCap.textContent = caption || "💗";
+      openOverlay(lightbox);
+      spawnHearts(10);
+    }
+
+    function closeLightbox() {
+      closeOverlay(lightbox);
+      if (lightboxImg) lightboxImg.src = "";
+      if (lastImageFocus && lastImageFocus.focus) lastImageFocus.focus();
+    }
+
+    const videoBox = $("videoBox");
+    const videoPlayer = $("videoPlayer");
+    const videoCap = $("videoCap");
+    const closeVideoBtn = $("closeVideo");
+    let lastVideoFocus = null;
+
+    function openVideo(src, title) {
+      if (!videoBox || !videoPlayer || !videoCap) return;
+      lastVideoFocus = document.activeElement;
+      videoCap.textContent = title || "Our video 💗";
+      videoPlayer.src = src;
+      openOverlay(videoBox);
+      videoPlayer.play().catch(() => {});
+      spawnHearts(10);
+      toast("Press play and relive the moment 🎥💗");
+    }
+
+    function closeVideo() {
+      if (!videoBox || !videoPlayer) return;
+      videoPlayer.pause();
+      videoPlayer.removeAttribute("src");
+      videoPlayer.load();
+      closeOverlay(videoBox);
+      if (lastVideoFocus && lastVideoFocus.focus) lastVideoFocus.focus();
+    }
+
+    function initGallery() {
+      const gallery = $("gallery");
+      if (!gallery) return;
+
+      gallery.addEventListener("click", (e) => {
+        const card = e.target.closest(".photo");
+        if (!card) return;
+        const img = card.querySelector("img");
+        if (!img) return;
+        openLightbox(img.src, card.dataset.caption);
+      });
+    }
+
+    function initVideos() {
+      const grid = $("videoGrid");
+      if (!grid) return;
+
+      grid.addEventListener("click", (e) => {
+        const card = e.target.closest(".videoCard");
+        if (!card) return;
+        openVideo(card.dataset.src, card.dataset.title);
+      });
+    }
+
+    function initScroll() {
+      const btn = $("btnScroll");
+      const gallery = $("gallery");
+      if (!btn || !gallery) return;
+
+      btn.addEventListener("click", () => {
+        gallery.scrollIntoView({ behavior: "smooth", block: "start" });
+        toast("Memories time 📸");
+      });
+    }
+
+    function initGate() {
+      if (!ENABLE_GATE) return;
+      const gate = $("gate");
+      const input = $("gateInput");
+      const btn = $("gateBtn");
+      if (!gate || !input || !btn) return;
+
+      gate.style.display = "flex";
+
+      function tryUnlock() {
+        const val = (input.value || "").trim().toLowerCase();
+        if (val === SECRET_WORD.toLowerCase()) {
+          gate.style.display = "none";
+          spawnHearts(16);
+          toast("Unlocked 💗");
+        } else {
+          spawnHearts(6);
+          toast("Oops… try again 😝");
+        }
+      }
+
+      btn.addEventListener("click", tryUnlock);
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") tryUnlock();
+      });
+
+      setTimeout(() => input.focus(), 50);
+    }
+
+    function initButtons() {
+      $("btnHearts")?.addEventListener("click", () => spawnHearts(24));
+      $("btnMusic")?.addEventListener("click", toggleMusic);
+      $("btnLetter")?.addEventListener("click", openLetter);
+      closeLetterBtn?.addEventListener("click", closeLetter);
+
+      $("btnReason")?.addEventListener("click", randomReason);
+      $("btnReason2")?.addEventListener("click", randomReason);
+
+      $("btnCopyReason")?.addEventListener("click", () =>
+        copyText($("reasonText")?.textContent || "", "Copied 💗 Send it to her!", "Copy not allowed in this browser.")
+      );
+
+      $("btnCopyLetter")?.addEventListener("click", () =>
+        copyText(LOVE_LETTER, "Letter copied 💌", "Copy not allowed in this browser.")
+      );
+
+      $("btnConfetti")?.addEventListener("click", () => {
+        spawnHearts(18);
+        toast("Surprise! You’re loved a LOT 💗💙");
+      });
+
+      closeLightboxBtn?.addEventListener("click", closeLightbox);
+      closeVideoBtn?.addEventListener("click", closeVideo);
+
+      letterModal?.addEventListener("click", (e) => {
+        if (e.target === letterModal) closeLetter();
+      });
+
+      lightbox?.addEventListener("click", (e) => {
+        if (e.target === lightbox) closeLightbox();
+      });
+
+      videoBox?.addEventListener("click", (e) => {
+        if (e.target === videoBox) closeVideo();
+      });
+    }
+
+    function initFocusTraps() {
+      document.addEventListener("keydown", (e) => {
+        trapFocus(e, letterModal);
+        trapFocus(e, lightbox);
+        trapFocus(e, videoBox);
+        closeOnEscape(e);
+      });
+    }
+
+    function initAmbientHearts() {
+      setInterval(() => spawnHearts(2), 4200);
+    }
+
+    initText();
+    initButtons();
+    initGallery();
+    initVideos();
+    initScroll();
+    initGate();
+    initFocusTraps();
+    updateCounter();
+    setInterval(updateCounter, 1000);
+    initAmbientHearts();
+  </script>
+</body>
+</html>
